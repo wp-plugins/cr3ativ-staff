@@ -1,0 +1,177 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cr3ativ Staff Plugin\n"
+"POT-Creation-Date: 2014-10-30 11:38-0500\n"
+"PO-Revision-Date: 2014-10-30 11:38-0500\n"
+"Last-Translator: Barb Atkinson <barbi.atkinson@gmaill.com>\n"
+"Language-Team: Barb Atkinson <barbi.atkinson@gmaill.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cr3ativ-staff.php:52
+msgid "Cr3ativ Staff Options"
+msgstr ""
+
+#: cr3ativ-staff.php:53
+msgid "Staff Options"
+msgstr ""
+
+#: cr3ativ-staff.php:88
+msgid "Cr3ativ Staff Settings"
+msgstr ""
+
+#: cr3ativ-staff.php:149
+msgid ""
+"Please set the slug name below for your staff single pages.  Default url for "
+"single pages is /cr3ativstaff/.  If you leave this blank, the default staff "
+"slug name will be used."
+msgstr ""
+
+#: cr3ativ-staff.php:159
+msgid "Staff Single Page Slug Name"
+msgstr ""
+
+#: cr3ativ-staff.php:175 cr3ativ-staff.php:176
+msgid "Staff"
+msgstr ""
+
+#: cr3ativ-staff.php:177
+msgid "Add New"
+msgstr ""
+
+#: cr3ativ-staff.php:178
+msgid "Add New Staff Member"
+msgstr ""
+
+#: cr3ativ-staff.php:179
+msgid "Edit Staff Member"
+msgstr ""
+
+#: cr3ativ-staff.php:180
+msgid "New Staff Member"
+msgstr ""
+
+#: cr3ativ-staff.php:181
+msgid "View Staff Member"
+msgstr ""
+
+#: cr3ativ-staff.php:182
+msgid "Search Staff"
+msgstr ""
+
+#: cr3ativ-staff.php:183
+msgid "Nothing found"
+msgstr ""
+
+#: cr3ativ-staff.php:184
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: cr3ativ-staff.php:206 cr3ativ-staff.php:275
+msgid "Staff Title"
+msgstr ""
+
+#: cr3ativ-staff.php:207
+msgid "Enter the professional title of this staff member."
+msgstr ""
+
+#: cr3ativ-staff.php:212
+msgid "Staff Head Shot Image"
+msgstr ""
+
+#: cr3ativ-staff.php:213
+msgid ""
+"Upload your employees head shot image here.  You should make sure your image "
+"size for these head shots are all the same height or it may cause stacking "
+"issues."
+msgstr ""
+
+#: cr3ativ-staff.php:218
+msgid "Staff Single Page Full Width Image"
+msgstr ""
+
+#: cr3ativ-staff.php:219
+msgid ""
+"Upload the full width image that will display on the staff single page.  "
+"Recommended size would be the full width of your inner wrapper, CSS supplied "
+"has the width at 980px."
+msgstr ""
+
+#: cr3ativ-staff.php:224
+msgid "Social Follow"
+msgstr ""
+
+#: cr3ativ-staff.php:225
+msgid "Add as many social follows as you would like."
+msgstr ""
+
+#: cr3ativ-staff.php:233
+msgid "Image"
+msgstr ""
+
+#: cr3ativ-staff.php:238
+msgid "URL"
+msgstr ""
+
+#: cr3ativ-staff.php:255
+msgid "Staff Data"
+msgstr ""
+
+#: cr3ativ-staff.php:272
+msgid "Date Created"
+msgstr ""
+
+#: cr3ativ-staff.php:273
+msgid "Head Shot"
+msgstr ""
+
+#: cr3ativ-staff.php:274
+msgid "Name"
+msgstr ""
+
+#: cr3ativ-staff.php:276
+msgid "Details"
+msgstr ""
+
+#: includes/staff-widget.php:7
+msgid "Staff Loop"
+msgstr ""
+
+#: includes/staff-widget.php:26
+msgid "Title"
+msgstr ""
+
+#: includes/staff-widget.php:30
+msgid "# Display?"
+msgstr ""
+
+#: includes/staff-widget.php:34
+msgid "Sort by ASC?"
+msgstr ""
+
+#: includes/staff-widget.php:38
+msgid "Show thumbnail?"
+msgstr ""
+
+#: includes/staff-widget.php:127 templates/single-cr3ativstaff.php:54
+#: templates/template-cr3ativstaff.php:21
+msgid "There are no posts to display. Try using the search."
+msgstr ""
+
+#: templates/template-cr3ativstaff.php:90
+msgid "Next Page"
+msgstr ""
+
+#: templates/template-cr3ativstaff.php:97
+msgid "Previous Page"
+msgstr ""

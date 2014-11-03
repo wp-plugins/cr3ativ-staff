@@ -1,0 +1,271 @@
+@charset "UTF-8";
+img { max-width: 100%; }
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+.cr3ativstaff_content_wrapper h2 {
+    font-size: 30px;
+    margin: 0 0 20px 0;
+}
+.cr3ativstaff_content_wrapper p {
+    font-size: 14px;
+    margin: 0 0 20px 0;
+    line-height: 1.6em;
+}
+.cr3ativstaff_content_wrapper {
+    margin:0 auto;
+    width:100%;
+}
+#cr3ativstaff_contentwrapper {
+    width:100%;
+}
+.cr3ativstaff_clear {
+    clear: both;
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    width:100%;
+}
+.cr3ativstaff_staff_wrapper {
+margin-right:3%;
+    margin-bottom: 5%;
+    width:31.3%;
+    float:left;
+}
+.cr3ativstaff_staff_wrapper .cr3ativstaff_one_third {
+}
+.cr3ativstaff_content_wrapper .cr3ativstaff_staff_wrapper:nth-of-type(3n+4) {  
+    margin-right: 0;
+}
+.cr3ativstaff_employee_name, .cr3ativstaff_employee_name a {
+    font-size:18px;
+    text-transform:uppercase;
+    text-align:center;
+    margin-top:20px;
+    font-weight:600;
+    text-decoration: none;
+    -webkit-transition:all 0.3s ease-in;  
+    -moz-transition:all 0.3s ease-in;  
+    -o-transition:all 0.3s ease-in;  
+    transition:all 0.3s ease-in;
+}
+.cr3ativstaff_employee_name a:hover {
+    text-decoration:none;
+}
+.cr3ativstaff_employee_title {
+    font-size:13px;
+    text-transform:uppercase;
+    text-align:center;
+    margin: 8px 0;
+}
+.cr3ativstaff_employee_social {
+    text-align:center;
+    margin-left: 8px;
+}
+.cr3ativstaff_employee_social a {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=99)";
+    filter: alpha(opacity=99);
+    opacity: .99;
+    -webkit-transition:all 0.3s ease-in;  
+    -moz-transition:all 0.3s ease-in;  
+    -o-transition:all 0.3s ease-in;  
+    transition:all 0.3s ease-in;
+}
+.cr3ativstaff_employee_social a:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    opacity: 0.80;
+}
+.cr3ativstaff_employee_image_single { 
+    position: relative; 
+    margin-bottom:20px;
+}
+.cr3ativstaff_employee_image_single img {
+    max-width:100%;
+}
+.cr3ativstaff_employee_image { 
+    position: relative; 
+    float: left; 
+    margin-bottom:20px;
+}
+.cr3ativstaff_employee_image img { 
+    display: block; 
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=99)";
+    filter: alpha(opacity=99);
+    opacity: 0.99;
+    max-width:100%;
+    width:100%;
+    height: auto;
+    -webkit-transition:all 0.3s ease-in;  
+    -moz-transition:all 0.3s ease-in;  
+    -o-transition:all 0.3s ease-in;  
+    transition:all 0.3s ease-in;
+    backface-visibility: hidden;
+}
+.cr3ativstaff_employee_image img:hover, .cr3ativstaff_social_icons a:hover, .staffthumb img:hover { 
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    opacity: .8;
+}
+.cr3ativstaff_employee_info {
+    border-top:1px solid #dddddd;
+    border-bottom:1px solid #dddddd;
+    margin-bottom: 25px;
+    padding: 10px 0;
+}
+.cr3ativstaff_employee_info .cr3ativstaffsocial_icons {
+    padding-top:16px;
+}
+.cr3ativstaff_employee_info .cr3ativstaff_employee_title {
+    text-align:left;
+}
+.cr3ativstaff_social_icons {
+    float:right;
+}
+.cr3ativstaff_social_icons img, .cr3ativstaff_employee_social img {
+    max-width:30px;
+    padding-right: 8px;
+    backface-visibility: hidden;
+}
+.cr3ativstaff_social_icons a {
+    line-height: 0em;
+    padding: 0;
+    margin: 0;
+    -webkit-transition:all 0.3s ease-in;  
+    -moz-transition:all 0.3s ease-in;  
+    -o-transition:all 0.3s ease-in;  
+    transition:all 0.3s ease-in;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=99)";
+    filter: alpha(opacity=99);
+    opacity: 0.99;
+}
+.cr3ativstaff_social_icons {
+    margin-right: -8px;
+}
+.cr3ativstaff_employee_info:after {
+    content: " "; /* Older browser do not support empty content */
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+ul.cr3ativcareer_widget_event {
+    margin-top: 20px;
+}
+.cr3ativcareer_widget_event li h3 {
+	font-size:18px;
+	margin-bottom:0 !important;
+	padding-bottom:10px;
+    margin-top: 10px;
+}
+.cr3ativcareer_widget_event li h3 a {
+    text-decoration: none;
+    font-weight: 400;
+}
+.cr3ativcareer_widget_event li h3 a:hover {
+    text-decoration: none;
+}
+.staffthumb {
+	float:left;
+	max-width:20%;
+    margin-top: 13px;
+}
+.staffthumb img {
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    -webkit-transition:all 0.3s ease-in;  
+    -moz-transition:all 0.3s ease-in;  
+    -o-transition:all 0.3s ease-in;  
+    transition:all 0.3s ease-in;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=99)";
+    filter: alpha(opacity=99);
+    opacity: 0.99;
+}
+.stafftext {
+	float:left;
+	margin-left:5%;
+	width:75%;
+}
+.stafftext p {
+	font-size: 12px;
+    line-height: 1.4em !important;
+}	
+.cr3ativcareer_widget_event li {
+	float:left;
+	width:100%;
+	}
+.cr3ativ_next_post a, .cr3ativ_prev_post a {
+    display: block;
+}
+.cr3ativ_next_post a{
+    float: right;
+}
+.cr3ativ_prev_post a {
+    float: left;
+}
+
+/*  START OF MEDIA QUERIES */
+
+ @media only screen and (max-width: 800px) {
+	.embed-container {
+		position: relative;
+		padding-bottom: 52.25%; /* 16/9 ratio */
+		padding-top: 30px; /* IE6 workaround*/
+		height: 0;
+		overflow: hidden;
+		}
+
+	.embed-container iframe,
+	.embed-container object,
+	.embed-container embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		}
+	
+	img {
+		max-width:100%;
+		height:auto;
+		}
+	
+	img {
+		-ms-interpolation-mode:bicubic;
+		} 
+		
+	.cr3ativstaff_staff_wrapper .cr3ativstaff_one_third {
+		width:100%;
+		margin:0;
+		} 
+		
+	.cr3ativstaff_content_wrapper {
+		width:95%;
+		}
+		
+	.cr3ativstaff_employee_social {
+		margin-bottom:20px;
+		}
+		
+	.cr3ativstaff_employee_name, .cr3ativstaff_employee_name a {
+		clear:left;
+		}
+}
+ @media only screen and (max-width: 640px) {
+		
+}
+ @media only screen and (max-width: 480px) {	
+
+}
+ @media only screen and (max-width: 320px) {
+
+}
+
+/*  END OF MEDIA QUERIES */
