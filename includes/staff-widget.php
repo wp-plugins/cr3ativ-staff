@@ -4,7 +4,7 @@ class cr3ativ_staff extends WP_Widget {
 
 	// constructor
 	function cr3ativ_staff() {
-        parent::WP_Widget(false, $name = __('Staff Loop', 'cr3atstaff') );
+        parent::__construct(false, $name = __('Staff Loop', 'cr3atstaff') );
     }
 
 	// widget form creation
@@ -106,15 +106,7 @@ $staffheadshot = get_post_meta($post->ID, 'staffheadshot', $single = true);
 
 <div class="stafftext">
 <h3><a href="<?php the_permalink (); ?>"><?php the_title (); ?></a></h3>
-<?php
-				global $more;
-				$more = 0;
-				ob_start();
-				the_content(('<span class="more-link">' . $readmoretext . '</span>'),true);
-				$postOutput = preg_replace('/<img[^>]+./','', ob_get_contents());
-				ob_end_clean();
-				echo $postOutput;
-				?>
+<?php the_excerpt (); ?>
 
 </div>
 
